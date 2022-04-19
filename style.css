@@ -9,8 +9,10 @@ header li, a, button {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 500;
   font-size: 16px;
-  color: tan;
+  color: #000000;
   text-decoration: none;
+  
+  
 }
 
 header{
@@ -22,16 +24,21 @@ header{
 /* need to insert logo */
 .logo {
   cursor: pointer;
-  margin: 10px;
+  margin: 5px;
+  width: 80px;
+  height: 40px;
 }
 
 .nav__links{
-  list-style: none;
+  list-style: none; 
+  
 }
 
 .nav__links li {
   display: inline-block;
+  background-color: transparent;
   padding: 0px 20px;
+ 
 }
 
 .nav__links li a {
@@ -39,17 +46,19 @@ header{
 }
 
 .nav__links li a:hover{
-  color: #0088a9
+  color:#2d7c9d
+  
 }
 
 button {
   padding: 9px 25px;
   margin: 10px;
-  background-color: rgba(0,136,169,1);
+  background-color: #161d20 ;
   border: none;
   border-radius: 50px;
   cursor: pointer;
   transition: all 0.3s ease 0s;
+  color:#ffffff
 }
 
 button:hover {
@@ -58,7 +67,7 @@ button:hover {
 
 
 body {
-  background-color:#F0EBE1;
+  background-color:#CCCCCC;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 19px;
   line-height: 1.8em;
@@ -66,8 +75,7 @@ body {
 }
 
 .team-profile {
-  background-color: tan;
-  border: 1px solid black;
+  background-color: #ffffff;
   margin: 40px;
   padding: 20px;
 }
@@ -84,12 +92,12 @@ body {
 }
 
 .team-info > div:nth-child(odd) {
-  background: #ddd;
+  background: rgb(255, 255, 255);
 }
 
 .image {
   position: relative;
-  width: 400px;
+  width: 300px;
 }
 
 .image__img {
@@ -119,7 +127,7 @@ body {
 }
 
 .image__overlay--primary {
-  background: rgba(0,136,169,0.5);
+  background: rgba(50, 51, 51, 0.5);
 }
 
 .image__overlay > * {
@@ -143,13 +151,78 @@ body {
 .image__description {
   font-size: 1.25em;
   margin-top: 0.25em;
+  text-align: center;
 }
 
+.bio { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+h3{
+  padding: 40px 40px 0px 
+}
 
 h2{
   text-align: center;
+  
 }
 
 h4{
-  text-align: center;
+  padding: 30px;
+}
+
+.team-personality{
+  background-color: #ffffff;
+  margin:40px;
+  padding:20px
+}
+
+.ideal-jobs{
+  background-color: #ffffff;
+  margin:40px;
+  padding:20px
+}
+
+.industry-data, li{
+  background-color: #ffffff;
+  margin:40px;
+  padding:20px
+}
+
+.it-work{
+  background-color: #ffffff;
+  margin:40px;
+  padding:20px
+}
+
+.it-technologies{
+  background-color: #ffffff;
+  margin:40px;
+  padding:20px
+}
+
+.project-idea{
+  background-color: #ffffff;
+  margin:40px;
+  padding:20px
+}
+
+.questions{
+  padding: 25px 60px;
+  font-weight: bold;
+
+}
+
+.answers{
+  padding: 25px
+}
+
+.contact-id{
+  background-color: #ffffff;
+  margin:40px;
+  padding:20px
 }

@@ -67,7 +67,7 @@ button:hover {
 
 
 body {
-  background-color:#CCCCCC;
+  background-color: rgba(183, 191, 205);
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 19px;
   line-height: 1.8em;
@@ -163,6 +163,10 @@ body {
 
 }
 
+.table{
+  text-align: center;
+}
+
 h3{
   padding: 40px 40px 0px 
 }
@@ -192,7 +196,8 @@ h4{
 .team-personality{
   background-color: #ffffff;
   margin:40px;
-  padding:20px
+  padding:20px;
+  text-align: justify
 }
 .ideal_jobs_img{
   max-width: 100%;
@@ -212,31 +217,36 @@ h4{
 .ideal-jobs{
   background-color: #ffffff;
   margin:40px;
-  padding:20px
+  padding:20px;
+  text-align: justify
 }
 
 .industry-data, li{
   background-color: #ffffff;
   margin:40px;
-  padding:20px
+  padding:20px;
+  text-align: justify
 }
 
 .it-work{
   background-color: #ffffff;
   margin:40px;
-  padding:20px
+  padding:20px;
+  text-align: justify
 }
 
 .it-technologies{
   background-color: #ffffff;
   margin:40px;
-  padding:20px
+  padding:20px;
+  text-align: justify
 }
 
 .project-idea{
   background-color: #ffffff;
   margin:40px;
-  padding:20px
+  padding:20px;
+  text-align: justify;
 }
 
 .questions{
@@ -246,13 +256,15 @@ h4{
 }
 
 .answers{
-  padding: 25px
+  padding: 25px;
+  text-align: justify
 }
 
 .contact-id{
   background-color: #ffffff;
   margin:40px;
-  padding:20px
+  padding:20px;
+  text-align: justify
 }
 
 .reference_list{
@@ -264,21 +276,22 @@ h4{
 .Reflections{
   background-color: #ffffff;
   margin:40px;
-  padding:20px
+  padding:20px;
+  text-align: justify
 
 }
 
 .group_reflections{
   background-color: #ffffff;
   margin:40px;
-  padding:20px
+  padding:20px;
+  text-align: justify
 
 }
 
 .footer{
   background-color: rgb(117, 117, 117);
-  color: #eee;
-  margin: 60px;
+  color: rgba(183, 191, 205);
   
 
 }
